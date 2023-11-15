@@ -1,14 +1,13 @@
-import React from "react";
-import Note from "./Note";
+import React from 'react';
+import Note from './Note';
 
 function App() {
-   
-   return (
-       <div className ="App">
-           
-           <Note></Note>
-       </div>
-   );
-   
+  return (
+    <div className="app-container">
+      <h2>Mis notas</h2>
+      <Note />
+    </div>
+  );
 }
-export default App; // para que otras clases puedan usar App
+
+export default App;

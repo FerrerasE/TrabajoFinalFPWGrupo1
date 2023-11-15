@@ -7,5 +7,5 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const iniciar = ReactDOM.createRoot(document.getElementById('root')); /** variable constante que inicia index */
 
 iniciar.render(
- <App></App> /** llama o muestra lo que tiene la clase App.js */
+ <App></App> 
 );
