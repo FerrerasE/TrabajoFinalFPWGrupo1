@@ -6,6 +6,8 @@ import ErrorPage from './components/ErrorPage';
 import About from './components/About';
 import Spaceships from './components/SpaceShips';
 
+import Note from './components/Note';
+
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 //  import { Component } from 'react';
 function App() {
@@ -23,7 +25,7 @@ function App() {
                             <Nav.Link href="*">ErrorPage</Nav.Link>
                             <NavDropdown title="Games" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="Spaceships">Spaceships</NavDropdown.Item>
-                                {/* <NavDropdown.Item href="otroJuego">OtroJuego</NavDropdown.Item> */}
+                                <NavDropdown.Item href="Note">Lista de Tareas</NavDropdown.Item> 
                                 {/* <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>  */}
@@ -35,8 +37,9 @@ function App() {
 
             <Routes>
                 <Route path="/" element={<Inicio />} />
-                {/* <Route path="otroJuego" element={<OtroJuego />} /> */}
+                <Route path="Note" element={<Note />} /> 
                 <Route path="spaceships" element={<Spaceships />} />
+                {/*<Route path="otrojuego" element={<otrojuego />} />  */}
                 <Route path="AboutUs" element={<About />} />
                 <Route path="*" element={<ErrorPage />} />
             </Routes>
