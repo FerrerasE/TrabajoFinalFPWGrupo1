@@ -1,38 +1,77 @@
+/* Estilo para el cuerpo */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #a1c421;
-    text-align: center;
-  }
-  
-  .container {
-    margin: 0 auto;
-    max-width: 800px;
-    padding: 40px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-  }
-  
-  button {
-    background-color: #3498db;
-    color: #ffffff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 10px;
-  }
-  
-  button:hover {
-    background-color: #2980b9;
-  }
-  
-  h1 {
-    font-size: 40px;
-    color: #333;
-  }
-  
-  p {
-    font-size: 30px;
-    color: #585050;
-  }
+  font-family: Arial, sans-serif;
+  background-color: #b1e201;
+  text-align: center;
+}
+
+/* Estilo para el navbar */
+.navbar {
+  background-color: #343a40; /* Color de fondo del navbar */
+  color: #ffffff; /* Color del texto del navbar */
+}
+
+/* Estilo para los enlaces del navbar */
+.navbar-nav .nav-link {
+  color: #000000; /* Color del texto del enlace del navbar */
+  font-weight: bold; /* Hace que las letras sean más gruesas */
+  font-size: 25px; /* Ajusta el tamaño de las letras */
+  transition: color 0.3s ease; /* Agrega una transición suave al color */
+}
+
+/* Cambio de color al pasar el mouse por encima */
+.navbar-nav .nav-link:hover {
+  color: #e1fa02; /* Cambia el color al pasar el mouse por encima */
+}
+
+/* Estilo para el enlace activo en el navbar */
+.navbar-nav .nav-item.active .nav-link {
+  color: #007bff; /* Color del texto del enlace activo del navbar */
+}
+
+/* Estilo para el contenido principal */
+.container {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 40px;
+  background: linear-gradient(45deg, #f39b53, #e6cb9a); /* Degradado en el fondo */
+  box-shadow: 0 0 30px rgba(0, 0, 0, 30);
+  border-radius: 20px;
+  color: #fff; /* Color del texto */
+}
+
+/* Estilo para los botones dentro del contenido */
+.container button {
+  background-color: #0099ff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s ease; /* Transición suave al pasar el mouse */
+}
+
+/* Cambio de color al pasar el mouse por encima de los botones */
+.container button:hover {
+  background-color: #2980b9;
+}
+
+/* Estilo para los encabezados */
+h1 {
+  font-size: 40px;
+  color: #333;
+}
+
+/* Estilo para los párrafos */
+p {
+  font-size: 30px;
+  color: #585050;
+  background-color: #81cce2; /* Fondo de color llamativo, puedes ajustar el color según tus preferencias */
+  padding: 20px; /* Agregando un relleno para separar el texto del borde del fondo */
+}
+h2{
+  font-weight: bold; 
+  background-color: #81cce2; /* Fondo de color llamativo, puedes ajustar el color según tus preferencias */
+}
+

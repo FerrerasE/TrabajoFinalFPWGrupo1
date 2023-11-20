@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-// import './components/Styles.css';
+import './components/Styles.css';
 
 import Inicio from './components/Inicio';
 import ErrorPage from './components/ErrorPage';
