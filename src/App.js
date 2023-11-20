@@ -9,6 +9,7 @@ import Spaceships from './components/SpaceShips';
 import Note from './components/Note';
 import Animales from './Animales/InicioAnimales';
 import Dude from './components/Dude';
+import Comparador from './components/Comparador';
 // import EstilosAnimales from '../src/Animales/stylesAnimales.css';
 
 
@@ -33,6 +34,7 @@ function App() {
                                 <NavDropdown.Item href="Note">Lista de Tareas</NavDropdown.Item> 
                                 <NavDropdown.Item href="Animales">Juego de Animales</NavDropdown.Item> 
                                 <NavDropdown.Item href="Dude">Juego de Dude</NavDropdown.Item> 
+                                <NavDropdown.Item href="Comparador">Comparador de precios</NavDropdown.Item> 
                                 {/* <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>  */}
@@ -48,6 +50,7 @@ function App() {
                 <Route path="Animales" element={<Animales />} /> 
                 <Route path="spaceships" element={<Spaceships />} />
                 <Route path="Dude" element={<Dude />} />
+                <Route path="Comparador" element={<Comparador />} />
                 {/*<Route path="otrojuego" element={<otrojuego />} />  */}
                 <Route path="AboutUs" element={<About />} />
                 <Route path="*" element={<ErrorPage />} />
