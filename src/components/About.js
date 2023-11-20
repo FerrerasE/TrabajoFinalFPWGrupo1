@@ -1,38 +1,26 @@
+
 import nosotros from '../Data/nosotros.json';
+import React from 'react';
+import Card from 'react-bootstrap/Card';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function About(){
-    // const getRandomAnimal = () => {
-    //     const animals = animalsP.animals;
-    //     const randomIndex = Math.floor(Math.random() * animals.length);
-    //     return animals[randomIndex];
-    // };
-    // const alumno1 = nosotros.alumno1;
-    // const [alumnos, setAlumnos]= useState([])
-    // useEffect(() => {
-    //     fetch("Data/nosotros.json")
-    //     .then(response => response.json)
-    // })
 
-    const getAlumno = () => {
-        const alumno1 = nosotros.alumno1;
-        const alumno2 = nosotros.alumno2;
-        const alumno3 = nosotros.alumno3;
-        const alumno4 = nosotros.alumno4;
-        const alumno5 = nosotros.alumno5;
-        // const mostrar =  nosotros.length;
-        // return nosotros[mostrar];
-    };
-
-    
     return(
-         <h2>Alumnos del Grupo 1: </h2>
-        // <div>
-        //     {nosotros.map((data, key) => {
-        //         return <h1 key={key}>{data.company}</h1>;
-        //     })}
-        // </div>
-        
-    )
+        nosotros.map((nos) => (
+            <Card key={nos.id}>
+                <Card.Body>
+                    <Card.Title>{nos.nombre}</Card.Title>
+                    <Card.Text>
+                        Trabajo: {nos.trabajo}
+                        <br/>
+                        Link del Git Hub: {nos.link} 
+
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+        ))
+    );
 
 }
 export default About;

@@ -1,31 +1,37 @@
-{
-    "Alumno1": [
-      "nombre: Elian Ferreras",
-      "Trabajo: Realizo la pagina Web donde se alojaron los trabajos y modifico el Juego de Naves",
-      "link del Git Hub: https://github.com/FerrerasE?tab=repositories"
-    ],
+ [
+       {
+    "id":0, 
+      "nombre": "Elian Ferreras",
+      "trabajo": "Realizó la pagina Web donde se alojaron los trabajos y modifico el Juego de Naves.",
+      "link": "https://github.com/FerrerasE?tab=repositories"
+      },
 
-    "Alumno2": [
-        "nombre: Robles Joel Axel",
-        "Trabajo: Realizo el CSS de la pagina Web y el trabajo de Lista de Tareas",
-        "link del Git Hub: https://github.com/RorAxel?tab=repositories"
-      ],
+    {
+    "id":1,
+        "nombre": "Robles Joel Axel",
+        "trabajo": "Realizó el CSS de la pagina Web y el trabajo de Lista de Tareas.",
+        "link": "https://github.com/RorAxel?tab=repositories"
+    },
+    {
 
-      "Alumno3": [
-        "nombre: Claudia Gisela Lima",
-        "Trabajo: Realizo las modificaciones del Juego Dude",
-        "link del Git Hub: https://github.com/claudiagiselalima?tab=repositories"
-      ],
+      "id":2,
+        "nombre": "Claudia Gisela Lima",
+        "trabajo": "Realizó las modificaciones del Juego Dude.",
+        "link": "https://github.com/claudiagiselalima?tab=repositories"
+    },
+    {
 
-      "Alumno4": [
-        "nombre: Lucas Calisaya",
-        "Trabajo: Realizo las modificaciones del de Animales",
-        "link del Git Hub: https://github.com/prro99rr2?tab=repositories"
-      ],
+      "id":3,
+        "nombre": "Lucas Calisaya",
+        "trabajo": "Realizó las modificaciones del de Animales.",
+        "link": "https://github.com/prro99rr2?tab=repositories"
+    },
+    {
 
-      "Alumno5": [
-        "nombre: Ruth Cruz",
-        "Trabajo: Comparador de precios",
-        "link del Git Hub: https://github.com/RuthCJ?tab=repositories"
-      ]
-  }
+      "id":4, 
+        "nombre": "Ruth Cruz",
+        "trabajo": "Comparador de precios.",
+        "link": "https://github.com/RuthCJ?tab=repositories"
+      
+    }
+]
