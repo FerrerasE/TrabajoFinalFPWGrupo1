@@ -80,7 +80,7 @@ function Comparador() {
         setProductosMasBaratos(masBaratos);
     };
     useEffect(() => {
-        // This will be triggered after productosMasBaratos state is updated
+        // Se creo este UseEffect para que los productos mas baratos vayan actualizandose al instante y asi poder comparar 2 o mas con distintos nombres
         console.log(productosMasBaratos);
     }, [productosMasBaratos]);
 
